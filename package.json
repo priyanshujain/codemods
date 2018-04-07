@@ -1,0 +1,26 @@
+{
+  "name": "codemods",
+  "version": "0.0.1",
+  "description": "Examples for doing large-scale codebase refactors",
+  "main": "src/index.js",
+  "scripts": {
+    "codemod": "jscodeshift -t ./transform.js src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyanshujain/codemods.git"
+  },
+  "keywords": [
+    "codemod",
+    "code-refactor"
+  ],
+  "author": "Priyanshu Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyanshujain/codemods/issues"
+  },
+  "homepage": "https://github.com/priyanshujain/codemods#readme",
+  "devDependencies": {
+    "jscodeshift": "^0.5.0"
+  }
+}
